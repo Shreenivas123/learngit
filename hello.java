@@ -9,7 +9,7 @@ public class DemoApplication {
 
     @GetMapping("/")   
     public String home() {
-        return "Hello, this is my simple Java Web App!";
+        return "Hello, this is my simple Java Web Application!";
     }
 
     public static void main(String[] args) {
