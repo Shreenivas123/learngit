@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 public class DemoApplication {
 
-    @GetMapping("/")
+    @GetMapping("/")   
     public String home() {
         return "Hello, this is my simple Java Web App!";
     }
